@@ -1,0 +1,13 @@
+@charset "utf-8";
+@import './_variable.scss';
+@import './mixins.scss';
+
+.woui-icon {
+  display: inline-block;
+  vertical-align: middle;
+  &.icon-award-1 {
+    width: 51px;
+    height: 59px;
+    // @include cover('icon-award-1@2x');
+  }
+}

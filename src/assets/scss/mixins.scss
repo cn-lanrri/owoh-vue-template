@@ -1,0 +1,24 @@
+@charset "utf-8";
+@import './_variable.scss';
+
+/*文本格式化，超出范围，显示省略号*/
+@mixin text-overflow($width: 100%, $display: inline-block) {
+  width: $width;
+  display: $display;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  overflow: hidden;
+}
+@mixin cover($src, $size: 100% 100%, $position: center center) {
+  // background-image: url('~@/assets/images/#{$src}.png');
+  background-image: url('https://res2.owohpet.cn/web/ohow_elm/images/#{$src}.png');
+  background-repeat: no-repeat;
+  background-position: #{$position};
+  background-size: #{$size};
+}
+@mixin coverImg($src, $size: 100% 100%, $position: center center) {
+  background-image: url('https://res2.owohpet.cn/web/ohow_elm/images/#{$src}');
+  background-repeat: no-repeat;
+  background-position: #{$position};
+  background-size: #{$size};
+}

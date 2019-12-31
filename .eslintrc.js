@@ -1,14 +1,21 @@
+/*
+ * @Author: Lanrri
+ * @Date: 2019-12-31 15:20:02
+ * @Description:
+ * @LastEditors  : Lanrri
+ * @LastEditTime : 2019-12-31 18:04:30
+ */
 module.exports = {
   root: true,
   env: {
     node: true
   },
-  extends: ["plugin:vue/essential", "@vue/prettier", "@vue/typescript"],
+  extends: ['plugin:vue/essential', '@vue/prettier', '@vue/typescript'],
   rules: {
-    "no-console": process.env.NODE_ENV === "production" ? "error" : "off",
-    "no-debugger": process.env.NODE_ENV === "production" ? "error" : "off"
+    'no-console': 'off',
+    'no-debugger': 'off'
   },
   parserOptions: {
-    parser: "@typescript-eslint/parser"
+    parser: '@typescript-eslint/parser'
   }
-};
+}
