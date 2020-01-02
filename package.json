@@ -42,6 +42,11 @@
     "vue-template-compiler": "^2.6.10",
     "yorkie": "^2.0.0"
   },
+  "husky": {
+    "hooks": {
+      "pre-commit": "lint-staged"
+    }
+  },
   "gitHooks": {
     "pre-commit": "lint-staged"
   },
