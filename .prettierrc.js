@@ -2,8 +2,8 @@
  * @Author: Lanrri
  * @Date: 2019-11-29 16:58:52
  * @Description:
- * @LastEditors: Lanrri
- * @LastEditTime: 2019-11-29 17:18:59
+ * @LastEditors  : Lanrri
+ * @LastEditTime : 2020-01-06 11:46:04
  */
 module.exports = {
   // 一行最多 100 字符
@@ -17,7 +17,7 @@ module.exports = {
   // 使用单引号
   singleQuote: true,
   // 对象的 key 仅在必要时用引号
-  quoteProps: 'as-needed',
+  quoteProps: 'consistent',
   // jsx 不使用单引号，而使用双引号
   jsxSingleQuote: false,
   // 末尾不需要逗号
